@@ -1,0 +1,46 @@
+Newark LinearRegression(): 
+R^2: -0.08209563130565933 
+RMSE: 0.6193628227820183 
+Houston LinearRegression() 
+R^2: 0.4641933546557315 
+RMSE: 0.3985296518109139 
+Newark ElasticNet(alpha=0.1, l1_ratio=0.01): 
+R^2: -0.11600203716920987 
+RMSE: 0.6289915413977226 
+Houston ElasticNet(alpha=0.1, l1_ratio=0.01) 
+R^2: 0.3995015922249546 
+RMSE: 0.4219029111429108 
+Newark KNeighborsRegressor(n_neighbors=31): 
+R^2: -0.02901508475933734 
+RMSE: 0.6039808682859943 
+Houston KNeighborsRegressor(n_neighbors=31) 
+R^2: 0.5268252295571829 
+RMSE: 0.3745134178674139 
+Newark DecisionTreeRegressor(max_depth=9, max_leaf_nodes=40, random_state=16): 
+R^2: -0.09661010237013579 
+RMSE: 0.6235028352474606 
+Houston DecisionTreeRegressor(max_depth=9, max_leaf_nodes=40, random_state=16) 
+R^2: 0.5526271068292603 
+RMSE: 0.364159316311476 
+Newark RandomForestRegressor(max_depth=10, max_leaf_nodes=102, min_samples_split=50,
+                      random_state=16): 
+R^2: 0.03440003788240131 
+RMSE: 0.5850741784761827 
+Houston RandomForestRegressor(max_depth=10, max_leaf_nodes=102, min_samples_split=50,
+                      random_state=16) 
+R^2: 0.5769634052664921 
+RMSE: 0.35411600883195604 
+Newark DecisionTreeRegressor(max_depth=5, max_leaf_nodes=20, random_state=16): 
+R^2: -8.49314068069873e-05 
+RMSE: 0.5954300562774333 
+Houston DecisionTreeRegressor(max_depth=5, max_leaf_nodes=20, random_state=16) 
+R^2: 0.5283555481081362 
+RMSE: 0.37390731097978824 
+Newark RandomForestRegressor(max_depth=5, max_leaf_nodes=102, min_samples_split=50,
+                      random_state=16): 
+R^2: 0.007297590205473936 
+RMSE: 0.5932282844632951 
+Houston RandomForestRegressor(max_depth=5, max_leaf_nodes=102, min_samples_split=50,
+                      random_state=16) 
+R^2: 0.5328321450783282 
+RMSE: 0.3721286161698444 

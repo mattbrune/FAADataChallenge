@@ -1,0 +1,24 @@
+For the LinearRegression() model: 
+ R^2: 0.6389454860529143 
+ RMSE: 0.6680954744857359 
+For the ElasticNet(alpha=0.1, l1_ratio=0.99) model: 
+ R^2: 0.3768690952565844 
+ RMSE: 0.8777258174999396 
+For the KNeighborsRegressor(n_neighbors=21) model: 
+ R^2: 0.7940053543488357 
+ RMSE: 0.5046524812092484 
+For the DecisionTreeRegressor(max_depth=7, max_leaf_nodes=40, min_samples_split=62,
+                      random_state=16) model: 
+ R^2: 0.8225170578648496 
+ RMSE: 0.46843000743072183 
+For the RandomForestRegressor(max_depth=10, max_leaf_nodes=102, min_samples_split=50,
+                      random_state=16) model: 
+ R^2: 0.8286308682030512 
+ RMSE: 0.4602883058306695 
+For the DecisionTreeRegressor(max_depth=5, max_leaf_nodes=40, random_state=16) model: 
+ R^2: 0.8187294154505942 
+ RMSE: 0.4734006591680961 
+For the RandomForestRegressor(max_depth=5, max_leaf_nodes=102, min_samples_split=50,
+                      random_state=16) model: 
+ R^2: 0.8240518781942168 
+ RMSE: 0.4663955614938132 
